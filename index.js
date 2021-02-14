@@ -15,7 +15,7 @@ function johnLennonFacts(facts) {
   var i = 0
   var str = []
   while (i < facts.length) {
-    var factoid = `${facts}!`
+    var factoid = `${facts}!!!`
     str.push(factoid)
     i = i+1
   }
