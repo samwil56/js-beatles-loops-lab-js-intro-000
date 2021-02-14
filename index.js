@@ -5,7 +5,7 @@ function theBeatlesPlay(musician, instrument) {
   for (i=0;i<=musician.length;i++ ) {
     var player = musician[i]
     var inst = instrument[i]
-    var plays = `{player} plays {inst}.`
+    var plays = `${player} plays ${inst}.`
     str.push(plays)
   }
   return str
