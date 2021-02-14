@@ -1,6 +1,6 @@
 // add solution here
 function theBeatlesPlay(musician, instrument) {
-  str = []
+  var str = []
   for (i=0,i==musician.length,i++) {
     player = musician[i]
     inst = instrument[i]
