@@ -26,6 +26,7 @@ function iLoveTheBeatles(input) {
   var str = []
   do {
     str.push('I love the Beatles!')
+    var i = 15 - input
   }
   while(input<15)
   return str
