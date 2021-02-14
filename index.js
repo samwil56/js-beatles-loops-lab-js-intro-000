@@ -24,10 +24,11 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(input) {
   var str = []
+  var i = 15 - input
   do {
     str.push('I love the Beatles!')
-    var i = 15 - input
+    i = i -1
   }
-  while(input<15)
+  while(i>0)
   return str
 }
