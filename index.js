@@ -21,3 +21,12 @@ function johnLennonFacts(facts) {
   }
   return str
 }
+
+function iLoveTheBeatles(input) {
+  var str = []
+  do {
+    str.push('I love the Beatles!')
+  }
+  while(input<15)
+  return str
+}
